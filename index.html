@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura semantica</title>
+    <style>
+        header{
+            background-color: #ff0000;
+            color: #ffffff;
+            width: 1000px;
+            height: 125px;
+            text-align: center;
+            font-family: tahoma;
+        }
+        nav{
+            background-color: #ffffff;
+            width: 1000px;
+            height: 50px;
+            font-family: tahoma;
+        }
+        main{
+            width: 1000px;
+            height: 600px;
+            font-family: tahoma;
+        }
+        #uno{
+            background-color: #EFEFEF;
+            width: 1000px;
+            height: 200px;
+        }
+        #dos{
+            background-color: #ffffff;
+            width: 1000px;
+            height: 200px;
+        }
+        #tres{
+            background-color: #EFEFEF;
+            width: 1000px;
+            height: 200px;
+        }
+        footer{
+            background-color: #ff0000;
+            color: #ffffff;
+            width: 1000px;
+            height: 50px;
+            text-align: center;
+            font-family: tahoma;
+        }
+        a{
+            margin-left: 80px;
+        }
+        .titulos{
+            color: #ff0000;
+            margin-top: 0px;
+            margin-left: 10px;
+            padding: 20px;
+        }
+        table{
+            width: 60%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th,td,tr{
+            border: 1px solid #000000;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header id="arriba">
+        <h1>Hoja de vida</h1>
+    </header>
+    <nav>
+        <center>
+            <a href="#">Inicio</a>
+            <a href="#uno">Datos personales</a>
+            <a href="#dos">Estudios</a>
+            <a href="#tres">Referencias personales</a>
+        </center>
+    </nav>
+    <main>
+        <section id="uno">
+            <h2 class="titulos">Datos personales</h2>
+            <center>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Teléfono</th>
+                        <th>Dirección</th>
+                    </tr>
+                    <tr>
+                        <td>Miguel Ángel</td>
+                        <td>Cruz Cuadros</td>
+                        <td>300 547 19 26</td>
+                        <td>CR 55 69 40 - Itagüí (Antioquia)</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+        <section id="dos">
+            <h2 class="titulos">Estudios</h2>
+            <center>
+                <table>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Titulo</th>
+                        <th>Año</th>
+                    </tr>
+                    <tr>
+                        <td>Institución Universitaria de Envigado</td>
+                        <td>Contador Público</td>
+                        <td>2021</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+        <section id="tres">
+            <h2 class="titulos">Referencias personales</h2>
+            <center>
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Parentezco</th>
+                        <th>Teléfono</th>
+                    </tr>
+                    <tr>
+                        <td>Carlos Andres</td>
+                        <td>Cruz Cuadros</td>
+                        <td>Hermano</td>
+                        <td>604 281 50 84</td>
+                    </tr>
+                </table>
+            </center>
+            <a href="#arriba">Subir</a>
+        </section>
+    </main>
+    <footer>
+        <h3>Derechos reservados</h3>
+    </footer>
+</body>
+</html>
